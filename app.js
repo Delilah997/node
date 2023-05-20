@@ -1,7 +1,7 @@
 import express from "express";
 import cors from 'cors'
-import db from "./database/db.js";
-import autoRoutes from "./routes/routes.js"
+import db from "./src/database/db.js";
+import autoRoutes from "./src/routes/routes.js"
 
 const app = express()
 
